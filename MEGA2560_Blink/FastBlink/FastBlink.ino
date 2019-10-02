@@ -1,5 +1,6 @@
 /*
   Blink
+  Board: Arudino/Genuino Mega or Mega 2560
 */
 
 int LED = 8;

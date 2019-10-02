@@ -9,6 +9,8 @@ int LED = 8;
 void setup() {
   // initialize digital pin LED_BUILTIN as an output.
   pinMode(LED, OUTPUT);
+  pinMode(LED_BUILTIN, OUTPUT);
+  digitalWrite(LED_BUILTIN, LOW);
 }
 
 // the loop function runs over and over again forever
